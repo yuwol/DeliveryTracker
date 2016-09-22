@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OZBargaining!</title>
+  <link rel="stylesheet" href="css/normalize.min.css"/>
+  <link rel="stylesheet" href="css/popup.css"/>
+  <script src="js/jscolor.js"></script>
+</head>
+<body>
+  <div class="l-wrap">
+    <div id="head" class="header">
+      <label><input type="checkbox" id="chk-all"/><span>Select All</span></label>
+      <button id="modify" class="control control-modify">Apply changes</button>
+      <button id="delete" class="control control-remove">Delete selected</button>
+    </div>
+    <div class="message"><button id="goFreeboard" class="goFreeboard">Let's go to OZbargain</button></div>
+    <ol id="userList" class="userList"></ol>
+    <div id="foot" class="footer">
+      <div>
+        <button id="sync" class="sync" style="display:none;">Sync</button>
+        <button id="syncGtoC" class="sync control control-modify">Google -> Chrome</button>
+        <button id="syncCtoG" class="sync control control-modify">Chrome -> Google</button>
+      </div>
+    </div>
+    <p style="float:left">v0.1</p>
+  </div>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/vendor/lodash.min.js"></script>
+  <script src="js/ozbargain_popup.js"></script>
+</body>
+</html>

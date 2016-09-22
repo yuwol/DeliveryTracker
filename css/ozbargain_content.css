@@ -1,0 +1,10 @@
+.ddanGay-memo {display:block;font-weight:bold;color:#FF4351;line-height:1.2;}
+.ddanGay-love {background-color:#eee !important;}
+
+.ddanGay_preventDetail_toggle {display:inline-block;width:100px;margin:5px 0;padding:10px;border:1px solid #FF4351;border-radius:5px;color:#FF4351;text-decoration:none;text-align:center;}
+.board_list td.author a[class^="member_"] {
+    overflow:hidden;
+    display:block;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
